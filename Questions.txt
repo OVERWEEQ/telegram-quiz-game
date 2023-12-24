@@ -1,0 +1,18 @@
+1
+MAIN QUESTION (only 1st without "#")?
+Correct answer first
+Wrong answer
+Wrong answer
+Wrong answer
+#2
+Which team won the 2018 FIFA World Cup?
+France
+Brazil
+Argentina
+Germany
+#3
+Which country holds the record for most victories at the World Cup?
+Brazil
+Germany
+Argentina
+Spain
