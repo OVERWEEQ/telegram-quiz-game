@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-from Edit import TOKEN, ADMINS
+from Edit import TOKEN, ADMINS, ID_REPORT_CHAT
 import sqlite3
 import random
 import string
@@ -90,7 +90,7 @@ def start_handler(message):
     user_data = cursor.fetchone()
     current_date = get_current_date()
     if user_data is None:
-        id_report_chat = -1001914206356
+        id_report_chat = ID_REPORT_CHAT
         bot.send_message(id_report_chat, f"New user @{message.chat.username}, id: {message.chat.id}")
         bot.register_next_step_handler(message, report_send_handler);
         referral_code = generate_referral_code()
